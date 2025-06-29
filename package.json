@@ -1,0 +1,20 @@
+{
+  "name": "expressserver",
+  "version": "1.0.0",
+  "description": "A smol project just to test how to deploy a backend based project on github",
+  "keywords": [
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Piyush Gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

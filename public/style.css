@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Color+Emoji&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #dad7cd;
+    color: #3a5a40;
+    font-family: "Noticia Text", serif;
+}
+
+.head{
+    padding: 0 15px 0 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    /* height: 20vh; */
+}
+
+.head p{
+    max-width: 350px;
+    text-align: left;
+}
+
+.head h1{
+    font-size: 36px;
+}
+.glow{
+    color: #344e41;
+    font-weight: 600;
+}
+
+.emoji{
+    font-family: "Noto Color Emoji", sans-serif;
+    font-size: 19px;
+}
+
+.mid{
+    padding: 0 15px 0 15px;
+}
+.mid ul li{
+    list-style-type: square;
+}
+.mid ul{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.sticky{
+    padding: 10px;
+    background-color: #344e41;
+    color: #dad7cd;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.sticky .glow{
+    color: #dad7cd;
+}
+
+.creator{
+    color: #dad7cd;
+}
