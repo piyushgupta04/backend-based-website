@@ -43,3 +43,9 @@ app.get("/help", (req, res)=>{
   console.log("Got a GET request on '/help' route!")
   res.render("help.ejs")
 })
+
+app.get("/", (req, res)=>{
+  console.log("Got a GET request on '/' route, redirected to /help")
+  res.render("help.ejs")
+  console.log(req.ip)
+})
